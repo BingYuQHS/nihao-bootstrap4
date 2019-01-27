@@ -1,3 +1,12 @@
 .component.demo{
     padding: 50px;
 }
+
+/* 修改默认‘/’导航路径的分隔符，伪元素 */
+/* .breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #868e96;
+    content: ">";
+} */
