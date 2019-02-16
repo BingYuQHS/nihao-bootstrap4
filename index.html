@@ -14,13 +14,24 @@
 </head>
 <body>
 <div class="component demo">
-    <a href="#collapse-demo" class="btn btn-primary" data-toggle="collapse">action link</a>
-    <button data-target="#collapse-demo" class="btn btn-primary" data-toggle="collapse">action button</button>
-    <div class="collapse" id="collapse-demo">
-        <div class="card card-body">
-            hello~
+   <div id="accordion">
+       <div class="card">
+           <div class="card-header">
+               <a href="#collapse-1" data-toggle="collapse">title1</a>
+            </div>
+           <div class="collapse show" id="collapse-1" data-parent="#accordion">
+                <div class="card-body">hello1 ~</div>
+           </div>
+       </div>
+       <div class="card">
+            <div class="card-header">
+                <a href="#collapse-2" data-toggle="collapse">title2</a>
+             </div>
+            <div class="collapse" id="collapse-2" data-parent="#accordion">
+                 <div class="card-body">hello2 ~</div>
+            </div>
         </div>
-    </div>
+   </div>
 </div>
 </body>
 </html>
