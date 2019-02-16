@@ -2,11 +2,12 @@
     padding: 50px;
 }
 
-/* 修改默认‘/’导航路径的分隔符，伪元素 */
-/* .breadcrumb-item + .breadcrumb-item::before {
-    display: inline-block;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    color: #868e96;
-    content: ">";
-} */
+.carousel.demo .carousel-item{
+    height: 300px;
+}
+
+.carousel.demo .carousel-item img{
+    min-height: 300px;
+    max-height: 400px;
+    object-fit: cover;/*更好的显示图片效果*/
+}
