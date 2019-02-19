@@ -14,36 +14,21 @@
 </head>
 <body>
 <div class="component demo">
-    <div class="form-check form-check-inline">
-        <label class="form-check-label">
-            <input class="form-check-input" type="checkbox">A
-        </label>
-    </div>
-    <div class="form-check form-check-inline">
-        <label class="form-check-label">
-            <input class="form-check-input" type="checkbox">B
-        </label>
-    </div>
-    <div class="form-check form-check-inline">
-        <label class="form-check-label">
-            <input class="form-check-input" type="checkbox">C
-        </label>
-    </div>
-    <div class="form-check form-check-inline">
-        <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="demo" value="A">A
-        </label>
-    </div>
-    <div class="form-check form-check-inline">
-        <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="demo" value="B">B
-        </label>
-    </div>
-    <div class="form-check form-check-inline">
-        <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="demo" value="C">C
-        </label>
-    </div>
+    <!-- 默认的 -->
+    <label class="form-check-label">
+        <input class="form-check-inpput" type="checkbox">A
+    </label>
+    <!-- 自定义的 -->
+    <label class="custom-control custom-checkbox">
+        <input class="custom-control-input" type="checkbox">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">A</span>
+    </label>
+    <label class="custom-control custom-radio">
+        <input class="custom-control-input" type="radio">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">A</span>
+    </label>
 </div>
 </body>
 </html>
