@@ -15,15 +15,23 @@
 <body>
 <div class="component demo">
     <form id="form-demo" novalidate action="">
-        <div class="form-group">
-            <input required type="text" class="form-control" placeholder="输入...">
-            <div class="invalid-feedback">请在文本框里输入内容</div>
+        <div class="form-row justify-content-center">
+            <div class="form-group col-4">
+                <input required type="text" class="form-control" placeholder="输入...">
+                <div class="invalid-feedback">请在文本框里输入内容</div>
+            </div>
+            <div class="w-100"></div>
+            <div class="form-group col-4">
+                <input required type="text" class="form-control" placeholder="输入...">
+                <div class="invalid-feedback">请在文本框里输入内容</div>
+            </div>
+            <div class="w-100"></div>
+            <div class="form-group col-4">
+                <button class="btn btn-primary">重置</button>
+                <button class="btn btn-primary">提交</button>
+            </div>
         </div>
-        <div class="form-group">
-            <input required type="text" class="form-control" placeholder="输入...">
-            <div class="invalid-feedback">请在文本框里输入内容</div>
-        </div>
-        <button class="btn btn-primary">提交</button>
+        
     </form>
     
 </div>
